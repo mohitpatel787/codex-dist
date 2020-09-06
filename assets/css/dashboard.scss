@@ -15744,6 +15744,9 @@ a.text-darker:hover, a.text-darker:focus {
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   letter-spacing: 0.025em;
+  display: inline-flex;
+    align-items: center;
+    align-self: center;
   font-size: 0.875rem;
   will-change: transform;
 }
@@ -23604,6 +23607,8 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 
 .ql-container {
   font-family: "Open Sans", sans-serif;
+  max-height: 50vh;
+    overflow-y: scroll;
 }
 
 .ql-toolbar {
@@ -25729,3 +25734,6 @@ input.datetimepicker[data-color="yellow"] + .bootstrap-datetimepicker-widget but
 
 /*# sourceMappingURL=dashboard.css.map */
 
+.btn:disabled{
+  opacity: 0.5 !important;
+}
