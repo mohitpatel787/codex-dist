@@ -5,7 +5,7 @@ body {
   font-weight: 500;
     line-height: 26px;
     font-family: "Open Sans", sans-serif;
-    color: #979797;
+    color: #656565;
   position: relative;
 }
 
@@ -96,6 +96,13 @@ h6 {
   line-height: 26px;
 }
 
+//utils
+.text-700{
+  font-weight: 700;
+}
+.text-800{
+  font-weight: 800;
+}
 .custom-shadow{
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
@@ -1076,6 +1083,7 @@ BLOG PAGE
 
 .blog-post img {
   border-radius: 5px;
+  width: 100%;
 }
 
 .blog-post .post-author i,
@@ -1114,7 +1122,7 @@ BLOG PAGE
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 20px;
+  right: 35px;
   color: #635CDB;
 }
 
@@ -1605,4 +1613,19 @@ BLOG SINGLE
     animation: fade_in 0.2s ease-in forwards;
   }
   
+}
+
+.no-content{
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+  img{
+    width: 6rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
 }
