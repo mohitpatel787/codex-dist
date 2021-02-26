@@ -7251,6 +7251,10 @@ a.close.disabled {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.5rem;
+
+  .form-content {
+    padding: 0;
+  }
 }
 
 .modal-footer {
@@ -15750,9 +15754,12 @@ a.text-darker:hover, a.text-darker:focus {
   transition: all 0.15s ease;
   letter-spacing: 0.025em;
   display: inline-flex;
+  margin-bottom: 1rem;
+  justify-content: center;
     align-items: center;
     align-self: center;
   font-size: 0.875rem;
+  width: auto;
   will-change: transform;
 }
 
